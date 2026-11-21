@@ -12,7 +12,7 @@ Before executing builds, tests, or git operations, always navigate (`cd`) into t
 | :--- | :--- | :--- | :--- |
 | **brendonroberto.com** | `~/Workspace/brendonroberto.com` | Public | Personal portfolio & web platform |
 | **fiber** | `~/Documents/GameProjects/fiber` | Private (`snackpackgames/fiber`) | Core multiplayer 2D RPG (Godot 4, Nakama) |
-| **Dreambeat-Rush** | `~/Documents/GameProjects/Dreambeat-Rush` | Private (`Dreambeat-Rush/Dreambeat-Rush`) | Rhythm / game project |
+| **Dreambeat-Rush** | `~/Documents/Unreal Projects/PlatformFighterStarterKit 5.3` | Private (`Dreambeat-Rush/Dreambeat-Rush`) | Somnolent platform fighter (Unreal Engine 5.3). Art source in `~/Documents/GameProjects/Dreambeat Rush` |
 | **Rubbley** | `~/Documents/GameProjects/Rubbley` | Public / Private | Game project |
 
 > **Note on Windows Paths:** `~` resolves to `C:\Users\broberto`. Check `AGENTS.local.md` for machine-specific path overrides if present.
