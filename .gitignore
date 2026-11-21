@@ -1,0 +1,20 @@
+# Local agent overrides & machine-specific configs
+*.local.md
+.local/
+*.local.json
+projects.local.json
+
+# Environment & Credentials
+.env*
+!*.example
+credentials/
+secrets/
+*.pem
+*.key
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
