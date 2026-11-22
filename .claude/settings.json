@@ -1,0 +1,30 @@
+{
+  "allowedTools": [
+    "Agent",
+    "Bash(git *)",
+    "Bash(gh *)",
+    "PowerShell(git *)",
+    "PowerShell(gh *)",
+    "WebSearch",
+    "WebFetch(domain:github.com)",
+    "WebFetch(domain:raw.githubusercontent.com)",
+    "WebFetch(domain:aihero.dev)",
+    "WebFetch(domain:aseprite.org)",
+    "WebFetch(domain:docs.pixel-composer.com)"
+  ],
+  "permissions": {
+    "allow": [
+      "Agent",
+      "Bash(git *)",
+      "Bash(gh *)",
+      "PowerShell(git *)",
+      "PowerShell(gh *)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:aihero.dev)",
+      "WebFetch(domain:aseprite.org)",
+      "WebFetch(domain:docs.pixel-composer.com)"
+    ]
+  }
+}
