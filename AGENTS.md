@@ -40,6 +40,11 @@ Before executing builds, tests, or git operations, always navigate (`cd`) into t
 * Canonical triage labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`.
 * See [`docs/agents/triage-labels.md`](./docs/agents/triage-labels.md) and [`docs/agents/issue-tracker.md`](./docs/agents/issue-tracker.md).
 
+### 5. Session Handoffs
+* Handoffs for resuming work in a later session live in `.local/handoffs/`, named `<n>-<topic>.md`. Put any supporting files in a `<n>-<topic>-assets/` folder beside the handoff.
+* `.local/` is gitignored because this repo is public. Never commit handoffs, and never move them into a tracked path. They can hold account details, private content rules and personal context.
+* When asked to write a handoff, save it there with the next free number. When resuming one, read it in full and re-verify its facts before acting on them.
+
 ---
 
 ## Shared Skills Library
