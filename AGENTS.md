@@ -34,6 +34,7 @@ Before executing builds, tests, or git operations, always navigate (`cd`) into t
 * For asynchronous / background development:
   `Loose idea` → `/wayfinder-chart` → `/wayfinder` → `/wayfinder-handoff` → `implementation`
 * Consult [`docs/agents/afk-pipeline.md`](./docs/agents/afk-pipeline.md) for full destination types, gate conditions, and artifact conventions.
+* For declarative YAML-as-code agent infrastructure (`plan`/`apply` reconciler), see [`docs/agents/agent-factory-iac.md`](./docs/agents/agent-factory-iac.md), [`docs/agents/antigravity-triggers.md`](./docs/agents/antigravity-triggers.md), and [`templates/antigravity-triggers/`](./templates/antigravity-triggers/).
 
 ### 4. Issue Tracking & Labels
 * Issues and backlogs are managed via GitHub CLI (`gh`).

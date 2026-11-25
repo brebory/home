@@ -1,0 +1,33 @@
+{
+  "display_name": "my-project-nightly-implement",
+  "schedule": "0 2 * * *",
+  "time_zone": "America/Los_Angeles",
+  "max_consecutive_failures": 3,
+  "execution_timeout_seconds": 1800,
+  "agent": "antigravity-preview-09-2026",
+  "model": "gemini-3.8-flash",
+  "max_total_tokens": "500000",
+  "prompt_template": "prompts/implement-routine.template.md",
+  "prompt_vars": {
+    "PROJECT_NAME": "MyProject",
+    "REPO": "owner/repo",
+    "DEFAULT_BRANCH": "main",
+    "WORKSPACE_DIR": "/workspace/repo",
+    "CONTEXT_FILE": "AGENTS.md",
+    "TEST_CMD": "bash scripts/test.sh",
+    "EXTRA_RULES": ""
+  },
+  "environment": {
+    "repo_url": "https://github.com/owner/repo",
+    "target_dir": "/workspace/repo",
+    "github_credential_id": "github-my-project-pat",
+    "allow_unlisted_egress": true,
+    "extra_allowed_domains": [],
+    "env": {
+      "GIT_AUTHOR_NAME": "Nightly Agent",
+      "GIT_AUTHOR_EMAIL": "agent@example.local",
+      "GIT_COMMITTER_NAME": "Nightly Agent",
+      "GIT_COMMITTER_EMAIL": "agent@example.local"
+    }
+  }
+}
